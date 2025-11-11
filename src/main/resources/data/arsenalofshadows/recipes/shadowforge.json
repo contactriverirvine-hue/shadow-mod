@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DFD",
+    "OOO"
+  ],
+  "key": {
+    "D": {
+      "item": "arsenalofshadows:darksteel_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "arsenalofshadows:shadowforge",
+    "count": 1
+  }
+}

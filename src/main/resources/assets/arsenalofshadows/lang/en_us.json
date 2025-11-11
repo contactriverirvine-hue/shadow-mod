@@ -1,0 +1,21 @@
+{
+  "itemGroup.arsenalofshadows": "Arsenal of Shadows",
+
+  "item.arsenalofshadows.darksteel_ingot": "Darksteel Ingot",
+  "item.arsenalofshadows.darksteel_shard": "Darksteel Shard",
+  "item.arsenalofshadows.shade_fragment": "Shade Fragment",
+  "item.arsenalofshadows.runic_stone": "Runic Stone",
+  "item.arsenalofshadows.runic_stone_fragment": "Runic Stone Fragment",
+  "item.arsenalofshadows.celestial_crystal": "Celestial Crystal",
+  "item.arsenalofshadows.shadow_ember": "Shadow Ember",
+  "item.arsenalofshadows.solar_ember": "Solar Ember",
+  "item.arsenalofshadows.soul_core": "Soul Core",
+  "item.arsenalofshadows.leather_core": "Leather Core",
+  "item.arsenalofshadows.ice_shard": "Ice Shard",
+
+  "item.arsenalofshadows.pike": "Darksteel Pike",
+  "item.arsenalofshadows.claymore": "Darksteel Claymore",
+  "item.arsenalofshadows.war_axe": "Darksteel War Axe",
+
+  "block.arsenalofshadows.shadowforge": "Shadowforge"
+}

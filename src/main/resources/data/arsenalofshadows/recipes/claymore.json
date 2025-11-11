@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " DD",
+    "DDD",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "item": "arsenalofshadows:darksteel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arsenalofshadows:claymore",
+    "count": 1
+  }
+}
