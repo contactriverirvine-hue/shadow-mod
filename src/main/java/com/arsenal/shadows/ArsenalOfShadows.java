@@ -19,9 +19,13 @@ public class ArsenalOfShadows {
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        com.arsenal.shadows.entities.ModEntities.ENTITIES.register(modEventBus);
 
         // Register event handlers
         MinecraftForge.EVENT_BUS.register(this);
+
+        // Register network
+        com.arsenal.shadows.network.ModNetwork.register();
 
         LOGGER.info("Arsenal of Shadows initializing...");
     }

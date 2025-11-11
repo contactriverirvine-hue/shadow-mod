@@ -36,6 +36,14 @@ public class ModCreativeTabs {
                         output.accept(ModItems.PIKE.get());
                         output.accept(ModItems.CLAYMORE.get());
                         output.accept(ModItems.WAR_AXE.get());
+                        output.accept(ModItems.RAPIER.get());
+                        output.accept(ModItems.FLAIL.get());
+                        output.accept(ModItems.JAVELIN.get());
+                        output.accept(ModItems.HALBERD.get());
+                        output.accept(ModItems.SCYTHE.get());
+
+                        // Armor
+                        output.accept(ModItems.HELM_OF_DARKNESS.get());
                     })
                     .build());
 }

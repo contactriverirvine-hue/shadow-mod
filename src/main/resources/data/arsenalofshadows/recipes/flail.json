@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C D",
+    "C  ",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "arsenalofshadows:darksteel_ingot"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arsenalofshadows:flail",
+    "count": 1
+  }
+}

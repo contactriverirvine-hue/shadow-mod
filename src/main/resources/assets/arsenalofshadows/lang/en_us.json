@@ -16,6 +16,13 @@
   "item.arsenalofshadows.pike": "Darksteel Pike",
   "item.arsenalofshadows.claymore": "Darksteel Claymore",
   "item.arsenalofshadows.war_axe": "Darksteel War Axe",
+  "item.arsenalofshadows.rapier": "Darksteel Rapier",
+  "item.arsenalofshadows.flail": "Darksteel Flail",
+  "item.arsenalofshadows.javelin": "Darksteel Javelin",
+  "item.arsenalofshadows.halberd": "Darksteel Halberd",
+  "item.arsenalofshadows.scythe": "Darksteel Scythe",
+
+  "item.arsenalofshadows.helm_of_darkness": "Helm of Darkness",
 
   "block.arsenalofshadows.shadowforge": "Shadowforge"
 }

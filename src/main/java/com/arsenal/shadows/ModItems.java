@@ -57,4 +57,24 @@ public class ModItems {
 
     public static final RegistryObject<Item> WAR_AXE = ITEMS.register("war_axe",
             () -> new com.arsenal.shadows.items.weapons.WarAxeItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAPIER = ITEMS.register("rapier",
+            () -> new com.arsenal.shadows.items.weapons.RapierItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> FLAIL = ITEMS.register("flail",
+            () -> new com.arsenal.shadows.items.weapons.FlailItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> JAVELIN = ITEMS.register("javelin",
+            () -> new com.arsenal.shadows.items.weapons.JavelinItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> HALBERD = ITEMS.register("halberd",
+            () -> new com.arsenal.shadows.items.weapons.HalberdItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> SCYTHE = ITEMS.register("scythe",
+            () -> new com.arsenal.shadows.items.weapons.ScytheItem(new Item.Properties()));
+
+    // ===== ARMOR =====
+
+    public static final RegistryObject<Item> HELM_OF_DARKNESS = ITEMS.register("helm_of_darkness",
+            () -> new com.arsenal.shadows.items.armor.HelmOfDarknessItem(new Item.Properties()));
 }

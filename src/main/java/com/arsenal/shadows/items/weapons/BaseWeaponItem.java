@@ -33,8 +33,13 @@ public abstract class BaseWeaponItem extends SwordItem {
         ItemStack itemStack = player.getItemInHand(hand);
 
         if (!level.isClientSide) {
-            // Check cooldown
-            if (player.getCooldowns().isOnCooldown(this)) {
+            // Check cooldown using per-stack system
+            if (com.arsenal.shadows.util.ItemCooldownManager.isOnCooldown(itemStack)) {
+                int remainingTicks = com.arsenal.shadows.util.ItemCooldownManager.getRemainingTicks(itemStack);
+                player.displayClientMessage(
+                        Component.literal("Cooldown: " + (remainingTicks / 20) + "s remaining").withStyle(ChatFormatting.GRAY),
+                        true
+                );
                 return InteractionResultHolder.fail(itemStack);
             }
 
@@ -44,8 +49,11 @@ public abstract class BaseWeaponItem extends SwordItem {
                     // Execute ability
                     executeAbility(level, player, itemStack);
 
-                    // Set cooldown
-                    player.getCooldowns().addCooldown(this, cooldownTicks);
+                    // Visual feedback
+                    com.arsenal.shadows.util.AbilityEffects.spawnStaminaUseParticles(player);
+
+                    // Set cooldown on THIS specific item stack
+                    com.arsenal.shadows.util.ItemCooldownManager.setCooldown(itemStack, cooldownTicks);
                 } else {
                     player.displayClientMessage(
                             Component.literal("Not enough stamina!").withStyle(ChatFormatting.RED),

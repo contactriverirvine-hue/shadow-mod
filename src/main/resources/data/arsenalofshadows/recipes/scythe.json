@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DD ",
+    "S D",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "arsenalofshadows:darksteel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arsenalofshadows:scythe",
+    "count": 1
+  }
+}
