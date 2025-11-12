@@ -1,6 +1,7 @@
 package com.arsenal.shadows;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -47,7 +48,33 @@ public class ModItems {
     public static final RegistryObject<Item> ICE_SHARD = ITEMS.register("ice_shard",
             () -> new Item(new Item.Properties()));
 
-    // ===== WEAPONS =====
+    // ===== TIER 1 WEAPONS (IRON - NO ABILITIES) =====
+
+    public static final RegistryObject<Item> IRON_PIKE = ITEMS.register("iron_pike",
+            () -> new com.arsenal.shadows.items.weapons.IronPikeItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_CLAYMORE = ITEMS.register("iron_claymore",
+            () -> new com.arsenal.shadows.items.weapons.IronClaymoreItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_WAR_AXE = ITEMS.register("iron_war_axe",
+            () -> new com.arsenal.shadows.items.weapons.IronWarAxeItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_RAPIER = ITEMS.register("iron_rapier",
+            () -> new com.arsenal.shadows.items.weapons.IronRapierItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_FLAIL = ITEMS.register("iron_flail",
+            () -> new com.arsenal.shadows.items.weapons.IronFlailItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_JAVELIN = ITEMS.register("iron_javelin",
+            () -> new com.arsenal.shadows.items.weapons.IronJavelinItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_HALBERD = ITEMS.register("iron_halberd",
+            () -> new com.arsenal.shadows.items.weapons.IronHalberdItem(Tiers.IRON, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
+            () -> new com.arsenal.shadows.items.weapons.IronScytheItem(Tiers.IRON, new Item.Properties()));
+
+    // ===== TIER 2 WEAPONS (DARKSTEEL - WITH ABILITIES) =====
 
     public static final RegistryObject<Item> PIKE = ITEMS.register("pike",
             () -> new com.arsenal.shadows.items.weapons.PikeItem(new Item.Properties()));

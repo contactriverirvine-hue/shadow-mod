@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  D",
+    "  I",
     " S ",
     "F  "
   ],
   "key": {
-    "D": {
-      "item": "arsenalofshadows:darksteel_shard"
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
     "S": {
       "item": "minecraft:stick"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "arsenalofshadows:javelin",
+    "item": "arsenalofshadows:iron_javelin",
     "count": 1
   }
 }

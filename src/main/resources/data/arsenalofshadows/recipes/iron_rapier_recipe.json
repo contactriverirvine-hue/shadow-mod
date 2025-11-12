@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  D",
-    " D ",
+    "  I",
+    " I ",
     "S  "
   ],
   "key": {
-    "D": {
-      "item": "arsenalofshadows:darksteel_ingot"
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "arsenalofshadows:rapier",
+    "item": "arsenalofshadows:iron_rapier",
     "count": 1
   }
 }

@@ -13,6 +13,15 @@
   "item.arsenalofshadows.leather_core": "Leather Core",
   "item.arsenalofshadows.ice_shard": "Ice Shard",
 
+  "item.arsenalofshadows.iron_pike": "Iron Pike",
+  "item.arsenalofshadows.iron_claymore": "Iron Claymore",
+  "item.arsenalofshadows.iron_war_axe": "Iron War Axe",
+  "item.arsenalofshadows.iron_rapier": "Iron Rapier",
+  "item.arsenalofshadows.iron_flail": "Iron Flail",
+  "item.arsenalofshadows.iron_javelin": "Iron Javelin",
+  "item.arsenalofshadows.iron_halberd": "Iron Halberd",
+  "item.arsenalofshadows.iron_scythe": "Iron Scythe",
+
   "item.arsenalofshadows.pike": "Darksteel Pike",
   "item.arsenalofshadows.claymore": "Darksteel Claymore",
   "item.arsenalofshadows.war_axe": "Darksteel War Axe",
@@ -24,5 +33,7 @@
 
   "item.arsenalofshadows.helm_of_darkness": "Helm of Darkness",
 
-  "block.arsenalofshadows.shadowforge": "Shadowforge"
+  "block.arsenalofshadows.shadowforge": "Shadowforge",
+
+  "container.arsenalofshadows.shadowforge": "Shadowforge"
 }

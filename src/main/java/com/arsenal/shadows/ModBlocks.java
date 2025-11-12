@@ -1,5 +1,6 @@
 package com.arsenal.shadows;
 
+import com.arsenal.shadows.blocks.ShadowforgeBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -16,13 +17,15 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ArsenalOfShadows.MODID);
 
-    // Shadowforge - Main crafting station
+    // Shadowforge - Main crafting station with block entity
     public static final RegistryObject<Block> SHADOWFORGE = registerBlock("shadowforge",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new ShadowforgeBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_BLACK)
                     .strength(5.0f, 6.0f)
                     .sound(SoundType.ANVIL)
-                    .requiresCorrectToolForDrops()));
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ShadowforgeBlock.LIT) ? 13 : 0)
+                    .noOcclusion()));
 
     // Helper method to register block + item
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

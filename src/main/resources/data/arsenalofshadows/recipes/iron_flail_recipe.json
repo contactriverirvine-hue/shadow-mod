@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "C D",
+    "C I",
     "C  ",
     "S  "
   ],
   "key": {
-    "D": {
-      "item": "arsenalofshadows:darksteel_ingot"
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
     "C": {
       "item": "minecraft:chain"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "arsenalofshadows:flail",
+    "item": "arsenalofshadows:iron_flail",
     "count": 1
   }
 }

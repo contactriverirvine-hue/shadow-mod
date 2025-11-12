@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "DD ",
-    "DS ",
-    " S "
+    " II",
+    "III",
+    "SI "
   ],
   "key": {
-    "D": {
-      "item": "arsenalofshadows:darksteel_ingot"
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "arsenalofshadows:war_axe",
+    "item": "arsenalofshadows:iron_claymore",
     "count": 1
   }
 }

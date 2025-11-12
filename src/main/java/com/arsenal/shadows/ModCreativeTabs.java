@@ -32,7 +32,17 @@ public class ModCreativeTabs {
                         // Blocks
                         output.accept(ModBlocks.SHADOWFORGE.get());
 
-                        // Weapons
+                        // Tier 1 Weapons (Iron)
+                        output.accept(ModItems.IRON_PIKE.get());
+                        output.accept(ModItems.IRON_CLAYMORE.get());
+                        output.accept(ModItems.IRON_WAR_AXE.get());
+                        output.accept(ModItems.IRON_RAPIER.get());
+                        output.accept(ModItems.IRON_FLAIL.get());
+                        output.accept(ModItems.IRON_JAVELIN.get());
+                        output.accept(ModItems.IRON_HALBERD.get());
+                        output.accept(ModItems.IRON_SCYTHE.get());
+
+                        // Tier 2 Weapons (Darksteel)
                         output.accept(ModItems.PIKE.get());
                         output.accept(ModItems.CLAYMORE.get());
                         output.accept(ModItems.WAR_AXE.get());
